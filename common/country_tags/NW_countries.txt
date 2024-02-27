@@ -1,0 +1,3 @@
+FUJ = "countries/asian.txt"
+MNG = "countries/asian.txt"
+FTR = "countries/France_Thrid_Republic.txt"

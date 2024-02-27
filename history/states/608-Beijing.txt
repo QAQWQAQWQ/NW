@@ -1,0 +1,37 @@
+
+state={
+	id=608
+	name="STATE_608"
+
+	resources={
+		steel=14.000
+		chromium=11.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			air_base = 3
+		}
+		victory_points = {
+			9843 30
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		4140 9843 11761  
+	}
+	manpower=6648400
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=1.0 
+}

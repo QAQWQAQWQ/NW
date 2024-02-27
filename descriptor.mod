@@ -1,0 +1,15 @@
+version="0.1"
+tags={
+	"Ideologies"
+	"Alternative History"
+	"Map"
+	"Balance"
+	"Events"
+	"Gameplay"
+	"Historical"
+	"National Focuses"
+	"Sound"
+	"Technologies"
+}
+name="新世界轮舞曲"
+supported_version="1.13.5"

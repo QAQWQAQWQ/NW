@@ -1,0 +1,185 @@
+ideas = {
+    country = {
+		FRA_reving_idea_0 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.6
+				war_support_factor = -0.5
+				research_speed_factor= -0.4
+                industrial_capacity_factory = -0.15
+                production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		FRA_reving_idea_1 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.4
+				research_speed_factor= -0.4
+                industrial_capacity_factory = -0.15
+                production_factory_max_efficiency_factor = -0.05
+			}
+		}
+		FRA_reving_idea_2 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.5
+				war_support_factor = -0.4
+				research_speed_factor= -0.4
+			}
+		}
+		FRA_reving_idea_3 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.4
+				war_support_factor = -0.3
+				research_speed_factor= -0.4
+			}
+		}
+		FRA_reving_idea_4 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.1
+				research_speed_factor= -0.4
+			}
+		}
+		FRA_reving_idea_5 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.3
+				research_speed_factor= -0.4
+			}
+		}
+		FRA_reving_idea_6 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.2
+				research_speed_factor= -0.4
+			}
+		}
+		FRA_reving_idea_7 = {
+			picture = GFX_FRA_reving_idea
+			modifier = {
+				stability_factor = -0.1
+				research_speed_factor= -0.4
+			}
+		}
+		FRA_ten_mil_idea = {
+			picture = GFX_FRA_ten_mil_idea
+			modifier = {
+				consumer_goods_factor = 0.2
+				political_power_cost = 0.5
+			}
+		}
+		FRA_ten_mil_idea_1 = {
+			picture = GFX_FRA_ten_mil_idea
+			modifier = {
+				consumer_goods_factor = 0.15
+				political_power_cost = 0.5
+			}
+		}
+		FRA_ten_mil_idea_2 = {
+			picture = GFX_FRA_ten_mil_idea
+			modifier = {
+				consumer_goods_factor = 0.15
+			}
+		}
+		FRA_feel_nervous_and_uneasy_idea = {
+			picture = GFX_FRA_feel_nervous_and_uneasy_idea
+			modifier = {
+				custom_modifier_tooltip = FRA_feel_nervous_and_uneasy_idea_tt
+				army_attack_factor = -0.50
+				army_defence_factor = -0.50
+				breakthrough_factor = -0.4
+				experience_loss_factor = 0.1
+				experience_gain_air_factor = -0.5
+				experience_gain_army_factor = -0.5
+				experience_gain_navy_factor = -0.5
+			}
+		}
+		FRA_feel_nervous_and_uneasy_idea_1 = {
+			picture = GFX_FRA_feel_nervous_and_uneasy_idea
+			modifier = {
+				custom_modifier_tooltip = FRA_feel_nervous_and_uneasy_idea_tt
+				army_attack_factor = -0.25
+				army_defence_factor = -0.25
+				breakthrough_factor = -0.2
+				experience_loss_factor = 0.1
+				experience_gain_air_factor = -0.25
+				experience_gain_army_factor = -0.25
+				experience_gain_navy_factor = -0.25
+			}
+		}
+		FRA_feel_nervous_and_uneasy_idea_2 = {
+			picture = GFX_FRA_feel_nervous_and_uneasy_idea
+			modifier = {
+				custom_modifier_tooltip = FRA_feel_nervous_and_uneasy_idea_tt
+				army_attack_factor = -0.15
+				army_defence_factor = -0.1
+				experience_loss_factor = 0.1
+				experience_gain_air_factor = -0.15
+				experience_gain_army_factor = -0.15
+				experience_gain_navy_factor = -0.15
+			}
+		}
+		FRA_feel_nervous_and_uneasy_idea_3 = {
+			picture = GFX_FRA_feel_nervous_and_uneasy_idea
+			modifier = {
+				army_attack_factor = -0.15
+				army_defence_factor = -0.1
+				experience_loss_factor = 0.1
+				experience_gain_air_factor = -0.15
+				experience_gain_army_factor = -0.15
+				experience_gain_navy_factor = -0.15
+			}
+		}
+		FRA_focus_3_idea = {
+			picture = GFX_FRA_focus_3_idea
+			modifier = {
+                industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+        }
+		FRA_focus_3_idea_1 = {
+			picture = GFX_FRA_focus_3_idea
+			modifier = {
+                industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.1
+				local_resources_factor = 0.05
+			}
+        }
+		FRA_focus_3_idea_2 = {
+			picture = GFX_FRA_focus_3_idea
+			modifier = {
+                industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.15
+				local_resources_factor = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+        }
+		FRA_focus_4_idea = {
+			picture = GFX_FRA_focus_4_idea
+			modifier = {
+				political_power_cost = -0.05
+				production_speed_buildings_factor = 0.1
+			}
+        }
+		FRA_focus_4_idea_1 = {
+			picture = GFX_FRA_focus_4_idea
+			modifier = {
+				political_power_cost = -0.1
+				production_speed_buildings_factor = 0.1
+                industrial_capacity_factory = 0.05
+			}
+        }
+		FRA_focus_5_idea = {
+			picture = GFX_FRA_focus_5_idea
+			modifier = {
+                consumer_goods_factor = -0.15
+			}
+        }
+	}
+}

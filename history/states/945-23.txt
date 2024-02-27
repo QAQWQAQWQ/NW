@@ -1,0 +1,45 @@
+state={
+	id=945
+	name="STATE_945"
+
+
+	history={
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			10459 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1625 4077 4085 4628 10459 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

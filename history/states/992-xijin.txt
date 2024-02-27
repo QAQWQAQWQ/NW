@@ -1,0 +1,20 @@
+state={
+	id=992
+	name="STATE_992"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		4435 
+	}
+	manpower=83123
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.0
+}

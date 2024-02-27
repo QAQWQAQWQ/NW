@@ -1,0 +1,393 @@
+#!gfx:interface\FRA_goals.gfx
+focus_tree = {
+	id = FRA
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = FRA
+		}
+	}
+	focus = {
+		id = FRA_focus_0
+		icon = GFX_FRA_focus_0
+		cost = 0.15
+		x = 3
+		y = 0
+		mutually_exclusive = {
+		}
+		prerequisite = {
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.0 } }
+			add_political_power = 50
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_1
+		icon = GFX_FRA_focus_1
+		cost = 3.00
+		x = 1
+		y = 1
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_0
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.1 } }
+			add_stability = 0.1
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_2
+		icon = GFX_FRA_focus_2
+		cost = 3.00
+		x = 5
+		y = 1
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_0
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.2 } }
+			add_stability = 0.1
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_3
+		icon = GFX_FRA_focus_3
+		cost = 3.00
+		x = 0
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_1
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.3 } }
+			swap_ideas = { 
+				remove_idea = FRA_reving_idea_0
+				add_idea = FRA_reving_idea_1
+			}
+			add_ideas = FRA_focus_3_idea
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_7
+		icon = GFX_FRA_focus_7
+		cost = 3.00
+		x = 0
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_3
+		}
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = FRA_focus_3_idea
+				add_idea = FRA_focus_3_idea_1
+			}
+			swap_ideas = { 
+				remove_idea = FRA_reving_idea_1
+				add_idea = FRA_reving_idea_2
+			}
+			swap_ideas = { 
+				remove_idea = FRA_ten_mil_idea
+				add_idea = FRA_ten_mil_idea_1
+			}
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_4
+		icon = GFX_FRA_focus_4
+		cost = 3.00
+		x = 2
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_1
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.4 } }
+			swap_ideas = { 
+				remove_idea = FRA_reving_idea_2
+				add_idea = FRA_reving_idea_3
+			}
+			swap_ideas = { 
+				remove_idea = FRA_ten_mil_idea_1
+				add_idea = FRA_ten_mil_idea_2
+			}
+			add_stability = 0.1
+		}
+		available = {
+			has_completed_focus = FRA_focus_7
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_8
+		icon = GFX_FRA_focus_8
+		cost = 3.00
+		x = 2
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_4
+		}
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = FRA_reving_idea_3
+				add_idea = FRA_reving_idea_4
+			}
+			add_ideas = FRA_focus_4_idea
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_5
+		icon = GFX_FRA_focus_5
+		cost = 3.00
+		x = 4
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_2
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.5 } }
+			swap_ideas = { 
+				remove_idea = FRA_reving_idea_4
+				add_idea = FRA_reving_idea_5
+			}
+			add_timed_idea = {
+					idea = FRA_focus_5_idea
+					days = 720
+			}
+		}
+		available = {
+			has_completed_focus = FRA_focus_8
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_9
+		icon = GFX_FRA_focus_9
+		cost = 3.00
+		x = 4
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_5
+		}
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = FRA_reving_idea_5
+				add_idea = FRA_reving_idea_6
+			}
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_6
+		icon = GFX_FRA_focus_6
+		cost = 3.00
+		x = 6
+		y = 2
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_2
+		}
+		completion_reward = {
+			swap_ideas = { 
+				remove_idea = FRA_reving_idea_6
+				add_idea = FRA_reving_idea_7
+			}
+			swap_ideas = { 
+				remove_idea = FRA_feel_nervous_and_uneasy_idea
+				add_idea = FRA_feel_nervous_and_uneasy_idea_1
+			}
+			add_manpower = -200
+			add_stability = 0.05
+		}
+		available = {
+			has_completed_focus = FRA_focus_9
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_10
+		icon = GFX_FRA_focus_10
+		cost = 3.00
+		x = 6
+		y = 3
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_6
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.10 } }
+			swap_ideas = { 
+				remove_idea = FRA_feel_nervous_and_uneasy_idea_1
+				add_idea = FRA_feel_nervous_and_uneasy_idea_2
+			}
+			add_manpower = -400
+			add_stability = 0.05
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_11
+		icon = GFX_FRA_focus_11
+		cost = 3.00
+		x = 1
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_7
+		}
+		prerequisite = {
+			focus = FRA_focus_8
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.11 } }
+			swap_ideas = {
+				remove_idea = FRA_focus_4_idea
+				add_idea = FRA_focus_4_idea_1
+			}
+			swap_ideas = {
+				remove_idea = FRA_focus_3_idea_1
+				add_idea = FRA_focus_3_idea_2
+			}
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_12
+		icon = GFX_FRA_focus_12
+		cost = 3.00
+		x = 5
+		y = 4
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_9
+		}
+		prerequisite = {
+			focus = FRA_focus_10
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.12 } }
+			add_manpower = -500
+			swap_ideas = { 
+				remove_idea = FRA_feel_nervous_and_uneasy_idea_2
+				add_idea = FRA_feel_nervous_and_uneasy_idea_3
+			}
+			custom_effect_tooltip = FRA_feel_nervous_and_uneasy_idea_remove_tt
+			hidden_effect = {
+				country_lock_all_division_template = no
+			}
+			division_template = {
+				name = "La milice"
+				priority = 2
+				division_names_group = FRA_INF_01
+				regiments = {
+					militia = { x = 0 y = 0 }
+					militia = { x = 0 y = 1 }
+					militia = { x = 1 y = 0 }
+					militia = { x = 1 y = 1 }
+				}
+				support = {
+				}
+			}
+			
+			16 = {
+				create_unit = {
+					division = "name = \"1. La milice\" division_template = \"La milice\" start_experience_factor = 0.1 " 
+					owner = FRA
+				}
+				create_unit = {
+					division = "name = \"2. La milice\" division_template = \"La milice\" start_experience_factor = 0.1 " 
+					owner = FRA
+				}
+				create_unit = {
+					division = "name = \"3. La milice\" division_template = \"La milice\" start_experience_factor = 0.1 " 
+					owner = FRA
+				}
+			}	
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+	focus = {
+		id = FRA_focus_13
+		icon = GFX_FRA_focus_13
+		cost = 3.00
+		x = 3
+		y = 5
+		mutually_exclusive = {
+		}
+		prerequisite = {
+			focus = FRA_focus_11
+		}
+		prerequisite = {
+			focus = FRA_focus_12
+		}
+		completion_reward = {
+			FRA = { country_event = { id = france.13 } }
+			promote_character = FRA_Assemblee_nationale
+			custom_effect_tooltip = FRA_focus_13_tool
+		}
+		available = {
+		}
+		bypass = {
+		}
+	}
+}

@@ -1,0 +1,45 @@
+state={
+	id=952
+	name="STATE_952"
+
+	resources={
+		tungsten=53.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		victory_points = {
+			1114 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = {
+						has_dlc = "Waking the Tiger"
+					}
+
+				}
+				CHI = {
+					transfer_state = PREV
+
+				}
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1114 1172 1196 1522 1653 4501 12282 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

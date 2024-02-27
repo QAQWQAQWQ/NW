@@ -1,0 +1,28 @@
+characters = {
+	FRA_Maurice_Thorez = { #莫里斯·多列士
+		name = FRA_Maurice_Thorez_name
+		portraits = {
+			civilian = {
+				large ="gfx/leaders/FRA/FRA_Maurice_Thorez.jpg"
+			}
+		}
+		country_leader={   
+			desc = FRA_Maurice_Thorez_desc
+			ideology= ideologies_2
+			traits={ my_son }
+		}
+	}
+	FRA_Assemblee_nationale = { #国民议会
+		name = FRA_Assemblee_nationale_name
+		portraits = {
+			civilian = {
+				large ="gfx/leaders/FRA/FRA_Assemblee_nationale.jpg"
+			}
+		}
+		country_leader={   
+			desc = FRA_Assemblee_nationale_desc
+			ideology= ideologies_2
+			traits={ shaber }
+		}
+	}
+}

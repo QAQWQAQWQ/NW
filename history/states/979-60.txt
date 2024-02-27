@@ -1,0 +1,35 @@
+state={
+	id=979
+	name="STATE_979"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			4519 1 
+		}
+		victory_points = {
+			7568 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 3
+			}
+
+		}
+
+	}
+
+	provinces={
+		4519 4547 7126 7459 7508 7540 7568 10434 10446 12012 12426 
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

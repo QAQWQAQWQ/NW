@@ -1,0 +1,42 @@
+
+state={
+	id=617
+	name="STATE_617"
+	resources={
+		steel=36.000
+	}
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		victory_points = {
+			4709 20 
+		}
+		victory_points = {
+			4682 1 
+		}
+		victory_points = {
+			12656 1 
+		}
+		victory_points = {
+			7792 1 
+		}
+
+	}
+
+	provinces={
+		1703 4682 4709 4770 4788 7702 7732 7792 10545 10614 10674 10839 12524 12656 12671 
+	}
+	manpower=1380500
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=6.0 
+}

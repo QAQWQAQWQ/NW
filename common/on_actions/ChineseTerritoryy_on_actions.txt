@@ -1,0 +1,193 @@
+on_actions = {
+
+	on_startup = {
+	
+		effect = {			
+			#aother_china
+			if = {
+				limit = {
+					country_exists = PRC
+					PRC = { is_puppet = no }
+					PRC = { has_idea = CHI_ineffective_bureaucracy_AC }
+				}
+
+				PRC = { country_event = { id = CT_anotherchina.1 } }
+			}
+
+			283 = { set_state_name = "兰山" }
+			286 = { set_state_name = "占城" }
+			287 = { set_state_name = "和阗" }
+			325 = { set_state_name = "滇中" }
+			524 = { set_state_name = "台湾" }
+			592 = { set_state_name = "粤海" }
+			593 = { set_state_name = "潮循" }
+			595 = { set_state_name = "闽海" }
+			596 = { set_state_name = "钱塘" }
+			597 = { set_state_name = "胶东" }
+			598 = { set_state_name = "准扬" }
+			599 = { set_state_name = "柳江" }
+			600 = { set_state_name = "豫章" }
+			601 = { set_state_name = "波密" }
+			602 = { set_state_name = "湘江" }
+			603 = { set_state_name = "黔西" }
+			604 = { set_state_name = "玉树" }
+			605 = { set_state_name = "重庆" }
+			606 = { set_state_name = "安庆" }
+			607 = { set_state_name = "开封" }
+			609 = { set_state_name = "冀东" }
+			611 = { set_state_name = "兴和" }
+			613 = { set_state_name = "南京" }
+			614 = { set_state_name = "保定" }
+			615 = { set_state_name = "冀宁" }
+			617 = { set_state_name = "迪化" }
+			618 = { set_state_name = "阿山" }
+			619 = { set_state_name = "喀什噶尔" }
+			620 = { set_state_name = "武汉" }
+			621 = { set_state_name = "绥远" }
+			622 = { set_state_name = "榆林" }
+			671 = { set_state_name = "交趾" }
+			715 = { set_state_name = "辽北" }
+			717 = { set_state_name = "松江" }
+			744 = { set_state_name = "关中" }
+			747 = { set_state_name = "腾越" }
+			748 = { set_state_name = "黔中" }
+			749 = { set_state_name = "芜湖" }
+			750 = { set_state_name = "荆南" }
+			751 = { set_state_name = "建昌" }
+			752 = { set_state_name = "川边" }
+			753 = { set_state_name = "西川" }
+			754 = { set_state_name = "西宁" }
+			755 = { set_state_name = "海西" }
+			756 = { set_state_name = "河西" }
+			760 = { set_state_name = "哈密" }
+
+			941 = { set_state_name = "上海" }
+			942 = { set_state_name = "喜马偕尔及北阿坎德" }
+			943 = { set_state_name = "高雷" }
+			944 = { set_state_name = "河北" }
+			945 = { set_state_name = "田南" }
+			946 = { set_state_name = "镇南" }
+			947 = { set_state_name = "钦廉" }
+			948 = { set_state_name = "苍梧" }
+			949 = { set_state_name = "桂林" }
+			950 = { set_state_name = "岭南" }
+			951 = { set_state_name = "普洱" }
+			952 = { set_state_name = "蒙自" }
+			953 = { set_state_name = "汀漳" }
+			954 = { set_state_name = "建安" }
+			955 = { set_state_name = "厦门" }
+			956 = { set_state_name = "瓯海" }
+			957 = { set_state_name = "金华" }
+			958 = { set_state_name = "会稽" }
+			959 = { set_state_name = "衡阳" }
+			960 = { set_state_name = "辰沅" }
+			961 = { set_state_name = "浔阳" }
+			962 = { set_state_name = "庐陵" }
+			963 = { set_state_name = "赣南" }
+			964 = { set_state_name = "黔东" }
+			965 = { set_state_name = "成都" }
+			966 = { set_state_name = "嘉陵" }
+			967 = { set_state_name = "永宁" }
+			968 = { set_state_name = "襄阳" }
+			969 = { set_state_name = "汉中" }
+			970 = { set_state_name = "淮泗" }
+			971 = { set_state_name = "徐海" }
+			972 = { set_state_name = "济宁" }
+			973 = { set_state_name = "济南" }
+			974 = { set_state_name = "东临" }
+			975 = { set_state_name = "津海" }
+			976 = { set_state_name = "冀南" }
+			977 = { set_state_name = "河东" }
+			978 = { set_state_name = "雁门" }
+			979 = { set_state_name = "汝阳" }
+			980 = { set_state_name = "河洛" }
+			981 = { set_state_name = "渭川" }
+			982 = { set_state_name = "泾原" }
+			983 = { set_state_name = "安肃" }
+			984 = { set_state_name = "甘凉" }
+			985 = { set_state_name = "塔城" }
+			986 = { set_state_name = "伊犁" }
+			987 = { set_state_name = "口北" }
+			988 = { set_state_name = "辽西" }
+			989 = { set_state_name = "合江" }
+			990 = { set_state_name = "安东" }
+			991 = { set_state_name = "嫩江" }
+			992 = { set_state_name = "锡金" }
+
+			set_victory_points = { province = 10062 value = 20 }
+			set_province_name = { id = 12432 name = "大同" }
+			set_province_name = { id = 4525 name = "包头" }
+			set_province_name = { id = 10424 name = "归绥" }
+			set_province_name = { id = 4469 name = "朔州" }
+			set_province_name = { id = 7911 name = "天水" }
+			set_province_name = { id = 2006 name = "宝鸡" }
+			set_province_name = { id = 12732 name = "西宁" }
+			set_province_name = { id = 10490 name = "共和" }
+			set_province_name = { id = 1029 name = "连云港" }
+			set_province_name = { id = 4709 name = "迪化" }
+
+			#宝鸡-西安
+			build_railway = {
+				path = { 2006 1976 7301 7406 }
+			}
+			#西安
+			744 = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+					province = 1976
+				}
+			}
+			#remove supply form province 7418
+			#945 = {
+			#	remove_building = {
+			#		type = supply_node
+			#		level = 1
+			#	}
+			#}
+			#韶关-长沙
+			build_railway = {
+				path = { 9970 9982 12350 7502 12483 10517 }
+			}
+			#开封-徐州
+			build_railway = {
+				level = 1
+				start_province = 7656
+				target_province = 1029
+			}
+			#阜阳-芜湖
+			build_railway = {
+				level = 1
+				start_province = 4079
+				target_province = 1171
+			}
+			#芜湖-南京
+			build_railway = {
+				path = { 1171 1099 11913 }
+			}
+			#上海-无锡
+			build_railway = {
+				path = { 4042 10034 10076 }
+			}
+			#包头-北京
+			build_railway = {
+				path = { 4525 10242 12432 7158 1590 6904 9843 }
+			}
+			#新民-通辽
+			build_railway = {
+				level = 1
+				start_province = 6951
+				target_province = 11903
+			}
+			#通辽-长春
+			build_railway = {
+				path = { 11903 1499 930 }
+			}
+			#太原-铜川
+			build_railway = {
+				path = { 1519 4634 7571 1575 5007 12156 }
+			}
+		}
+	}
+}

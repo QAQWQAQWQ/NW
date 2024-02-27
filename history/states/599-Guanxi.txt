@@ -1,0 +1,44 @@
+
+state={
+	id=599
+	name="STATE_599"
+	resources={
+		tungsten=40.000
+		steel=40.000
+		chromium=28.000
+	}
+
+	history= {
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+		}
+		victory_points = { 
+			10404 3 
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				CHI = { transfer_state = PREV }
+			}
+		}
+
+	}
+	provinces={
+		1597 4134 7095 10039 10431 12436 
+	}
+
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

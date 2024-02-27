@@ -1,0 +1,48 @@
+
+state={
+	id=594
+	name="STATE_594"
+	manpower = 6550000
+	state_category = town
+	resources={
+		tungsten=36.000
+		steel=33.000
+		chromium=28.000
+		aluminium=67.000
+	}
+
+	history={
+		owner = GXC
+		add_core_of = GXC
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = { 
+			7137 20 
+		}
+
+		1938.10.25 = {
+			if = {
+				limit = {
+					NOT = { has_dlc = "Waking the Tiger" }
+				}
+				remove_core_of = GXC
+				CHI = { transfer_state = PREV }
+			}
+			JAP = {
+				set_province_controller = 1018
+				set_province_controller = 4023
+				set_province_controller = 10004
+			} 			
+		}
+	}
+
+	provinces={
+		4028 7137 7650 10050 11926 
+	}
+
+	local_supplies=1.0 
+}

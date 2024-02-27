@@ -1,0 +1,41 @@
+
+state={
+	id=328
+	name="STATE_328" # Kirin
+	manpower=7536266
+
+	resources={
+		aluminium=32.000
+		steel=33.000
+	}
+	
+	state_category = city
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4572 20
+		}
+		victory_points = {
+			10433 20
+		}
+		victory_points = {
+			9931 1
+		}
+
+	}
+
+	provinces={
+		887 916 927 946 1567 3913 3932 3947 4503 4572 4642 6947 7523 7591 7652 7663 9782 9883 9913 9928 10433 11744 11808 11850 11862 11864 
+	}
+
+	local_supplies=0.0 
+}
+

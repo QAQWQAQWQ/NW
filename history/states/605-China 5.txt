@@ -1,0 +1,44 @@
+
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		steel=29.000
+		aluminium=22.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 3
+			air_base = 2
+		}
+		victory_points = {
+			6999 20 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 6
+				infrastructure = 3 #was: 6
+				air_base = 3
+				arms_factory = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1893 4141 4431 6999 9939 
+	}
+	manpower=20963300
+	buildings_max_level_factor=1.000
+	state_category=city
+
+	local_supplies=0.0 
+}

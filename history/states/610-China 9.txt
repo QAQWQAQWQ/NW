@@ -1,0 +1,37 @@
+
+state={
+	id=610
+	name="STATE_610"
+	resources={
+		tungsten=22.000
+	}
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			7633 1 
+		}
+		victory_points = {
+			934 1 
+		}
+		victory_points = {
+			814 1 
+		}
+
+	}
+
+	provinces={
+		814 881 972 1508 3828 3877 3881 3955 3978 4514 6852 6937 6988 7575 7633 9768 9873 9927 10331 10426 10429 10499 11801 11855 12478 
+	}
+	manpower=1975377
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

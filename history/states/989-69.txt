@@ -1,0 +1,37 @@
+
+state={
+	id=989
+	name="STATE_989"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		victory_points = {
+			10463 1
+		}
+		victory_points = {
+			4649 1
+		}
+		victory_points = {
+			7767 1
+		}
+		victory_points = {
+			10519 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1545 1693 1732 4551 4649 5427 6863 7569 7767 9623 9798 10215 10368 10379 10463 10519 10521 10698 12342 12443 12500 
+	}
+	manpower=600000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.0 
+}

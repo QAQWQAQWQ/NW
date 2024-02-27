@@ -1,0 +1,30 @@
+state={
+	id=991
+	name="STATE_991"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		victory_points = {
+			4506 20
+		}
+		victory_points = {
+			7582 3
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1588 1645 1847 4506 4592 4876 7526 7582 7894 12485 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

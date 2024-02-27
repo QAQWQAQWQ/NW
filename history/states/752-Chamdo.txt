@@ -1,0 +1,39 @@
+
+state={
+	id=752
+	name="STATE_752"
+
+	resources={
+		tungsten=32.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			1918 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+				infrastructure = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1918 1999 4999 7988 8104 12724 12837 
+	}
+	manpower=300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=1.0 
+}

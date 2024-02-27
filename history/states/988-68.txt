@@ -1,0 +1,34 @@
+
+state={
+	id=988
+	name="STATE_988"
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9835 1 
+		}
+		victory_points = {
+			6951 1 
+		}
+		victory_points = {
+			9788 1 
+		}
+
+	}
+
+	provinces={
+		846 934 3814 3934 6837 6893 6898 6951 9788 9835 9905 11815 11886 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

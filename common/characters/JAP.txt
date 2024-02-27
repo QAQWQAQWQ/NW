@@ -1,0 +1,15 @@
+characters = {
+	JAP_chong_ren = { #崇仁
+		name = JAP_chong_ren_name
+		portraits = {
+			civilian = {
+				large = "gfx/leaders/JAP/JAP_chong_ren.jpg"
+			}
+		}
+		country_leader={   
+			desc = JAP_chong_ren_desc
+			ideology= despotism
+			traits={  }
+		}
+	}
+}

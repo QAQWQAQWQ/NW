@@ -1,0 +1,39 @@
+state={
+	id=955
+	name="STATE_955"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			7071 = {
+				naval_base = 1
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			7071 1 
+		}
+		1938.10.25 = {
+			JAP = {
+				set_province_controller = 7071
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7071 7131 11986 
+	}
+	manpower=4755600
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0
+}

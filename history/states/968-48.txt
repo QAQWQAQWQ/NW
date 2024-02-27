@@ -1,0 +1,28 @@
+state={
+	id=968
+	name="STATE_968"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			4009 1 
+		}
+		victory_points = {
+			7019 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+
+	provinces={
+		4009 7019 7580 7609 7625 8072 9934 10474 12408 
+	}
+	manpower=5541600
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

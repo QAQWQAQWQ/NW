@@ -1,0 +1,49 @@
+bookmarks = {
+	bookmark = {
+		name = "NW_NAME"
+		desc = "NW_DESC"
+		date = 1936.1.1.1
+		default_country = "FRA"
+		default = yes
+		"JAP"={
+			minor = yes
+			history = "JAP_NW_DESC"
+			ideology = democratic
+			available = { always = yes }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"FRA"={
+			minor = yes
+			history = "FRA_NW_DESC"
+			ideology = democratic
+			available = { always = yes }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		"CHI"={
+			minor = yes
+			history = "CHI_NW_DESC"
+			ideology = democratic
+			available = { always = yes }
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

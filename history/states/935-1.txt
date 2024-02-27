@@ -1,0 +1,24 @@
+state={
+	id=935
+	name="STATE_935"
+
+	history={
+		add_core_of = BRM
+		add_claim_by = CHI
+		add_claim_by = PRC
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1197 1934 4318 4996 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=pastoral 
+	local_supplies=0.000
+}

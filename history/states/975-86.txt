@@ -1,0 +1,41 @@
+state={
+	id=975
+	name="STATE_975"
+
+	resources={
+		steel=56.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			10068 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			10068 25
+		}
+		victory_points = {
+			11996 1
+		}
+		1938.10.25 = {
+			controller = JAP
+
+		}
+
+	}
+
+	provinces={
+		4137 9969 10068 10119 11944 11980 11996 
+	}
+	manpower=3000000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=4.0 
+}

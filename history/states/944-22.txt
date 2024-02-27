@@ -1,0 +1,56 @@
+state={
+	id=944
+	name="STATE_944"
+
+	resources={
+		aluminium=33.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			4606 1 
+		}
+		victory_points = {
+			1139 1 
+		}
+		victory_points = {
+			11933 1 
+		}
+		victory_points = {
+			4144 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 4
+				infrastructure = 8
+				air_base = 2
+				arms_factory = 2
+
+			}
+			JAP = {
+				set_province_controller = 1139
+				set_province_controller = 4114
+				set_province_controller = 4144
+				set_province_controller = 4606
+				set_province_controller = 7074
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1139 4114 4144 4606 7074 11933
+	}
+	manpower=4000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0
+}

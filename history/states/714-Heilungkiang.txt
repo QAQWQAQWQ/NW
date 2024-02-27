@@ -1,0 +1,36 @@
+
+state={
+	id=714
+	name="STATE_714"
+	
+
+	history={
+		owner = MAN
+		add_core_of = CHI
+		add_core_of = MAN
+		add_core_of = PRC
+		victory_points = {
+			7897 1
+		}
+		victory_points = {
+			7832 1
+		}
+		victory_points = {
+			10541 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4809 7613 7832 7848 7873 7897 10541 10675 12537 12548 12618 
+	}
+	manpower=1094191
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

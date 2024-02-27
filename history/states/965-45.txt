@@ -1,0 +1,42 @@
+state={
+	id=965
+	name="STATE_965"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		victory_points = {
+			4925 25
+		}
+		victory_points = {
+			1367 1
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 6
+				air_base = 2
+				arms_factory = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1367 4925 7240 8026 10132 12767
+	}
+	manpower=23000000
+	buildings_max_level_factor=1.000
+	state_category=city
+	local_supplies=0.0
+}

@@ -1,0 +1,72 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_FRA_focus_0"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_0.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_1"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_1.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_2"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_2.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_3"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_3.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_4"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_4.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_5"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_5.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_6"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_6.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_7"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_7.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_8"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_8.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_9"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_9.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_10"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_10.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_11"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_11.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_12"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_12.png"
+		legacy_lazy_load = no
+    }
+    spriteType = {
+        name = "GFX_FRA_focus_13"
+        textureFile = "gfx//interface//goals//FRA_focus//FRA_focus_13.png"
+		legacy_lazy_load = no
+    }
+}

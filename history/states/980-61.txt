@@ -1,0 +1,42 @@
+state={
+	id=980
+	name="STATE_980"
+
+	resources={
+		tungsten=42.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			1004 20
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		1938.10.25 = {
+			buildings = {
+				industrial_complex = 3
+			}
+			JAP = {
+				set_province_controller = 1004
+				set_province_controller = 6932
+				set_province_controller = 11931
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1004 1603 6932 11931 
+	}
+	manpower=10000000
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.0 
+}

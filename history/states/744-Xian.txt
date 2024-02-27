@@ -1,0 +1,31 @@
+
+state={
+	id=744
+	name="STATE_744"
+
+	history={
+		owner = CHI
+		add_core_of = PRC
+		add_core_of = CHI
+		victory_points = {
+			1976 20 
+		}
+		victory_points = {
+			2006 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1976 2006 4256 5092 7301 7406 10257 12713 
+	}
+	manpower=7000000
+	buildings_max_level_factor=1.000
+	state_category=town
+
+	local_supplies=0.0 
+}

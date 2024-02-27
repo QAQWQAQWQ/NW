@@ -1,0 +1,49 @@
+
+state={
+	id=602
+	name="STATE_602"
+	resources={
+		tungsten=152.000
+	}
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 3 #was: 5
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+				infrastructure = 3 #was: 6
+				air_base = 1
+				arms_factory = 1
+			}
+
+		}
+		victory_points = {
+			7097 25
+		}
+		victory_points = {
+			7101 20 
+		}
+		victory_points = {
+			9999 1 
+		}
+		victory_points = {
+			12086 1 
+		}
+
+	}
+
+	provinces={
+		1640 7097 7101 7201 7279 7434 7665 9999 10517 12086 12310 12483 13140 13143 
+	}
+	manpower=14293700
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.0 
+}
