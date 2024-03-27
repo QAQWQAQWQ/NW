@@ -11,5 +11,7 @@ tags={
 	"Sound"
 	"Technologies"
 }
+replace_path="history/states"
+replace_path="map/strategicregions"
 name="新世界轮舞曲"
 supported_version="1.13.5"
